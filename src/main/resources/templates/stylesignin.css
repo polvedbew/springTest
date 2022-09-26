@@ -18,14 +18,21 @@ body{
     }
     .box
     {
+
+    margin: 20px;
+
+    background: #68828C2B;
+    border-radius: 40px;
+    left: 20px;
+    top: 200px;
+    right: 20px;
+    bottom: 20px;
+
+    height: 500px;
     width:300px;
     padding:30px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    background: #B0C4DE;
-    text-align:center;
+    transform: translate(30%,30%);
+    text-align:right;
 
     }
     .box h1
