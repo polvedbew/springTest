@@ -1,8 +1,9 @@
 body{
+    background-image: linear-gradient(to top left, #68828C , #F2F2FF);
+    background-attachment: fixed;
     margin:0;
     padding:0;
     font-family: soleto medium;
-    background: linear-gradient(to top left, #68828C , #F2F2FF);
     }
     .menu
     {
@@ -71,3 +72,15 @@ body{
     {
     background:#ffc400ec;
     }
+    div {
+        margin: 20px;
+        width: 100hh;
+        height: 100vh;
+        background: #68828C2B;
+        border-radius: 40px;
+        left: 20px;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+    }
+
