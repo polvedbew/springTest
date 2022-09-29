@@ -1,36 +1,19 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: soleto medium;
-    background: linear-gradient(to top left, #68828C , #F2F2FF);
-    }
-    .menu
+ .box
+     {
+     width:300px;
+     padding:30px;
+     position:absolute;
+     top:50%;
+     left:80%;
+     right:50px;
+     transform: translate(-50%,-50%);
+     background: #68828C2B;
+     text-align:center;
+     border-radius: 40px;
+     }
+ .box h1
     {
-    display:inline-flex;
-    list-style:none;
-    }
-    .menu h1
-    {
-    width:1500px;
-    margin:10px;
-    padding:10px;
-    }
-    .box
-    {
-    width:300px;
-    padding:30px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    background: #B0C4DE;
-    text-align:center;
-
-    }
-    .box h1
-    {
-    color:white;
-    //text-transform:uppercase;
+    color:black;
     font-weight:center;
     }
     .box input[type="email"],.box input[type="password"]
@@ -40,7 +23,7 @@ body{
     display:block;
     margin:20px auto;
     text-align:center;
-    border:1px solid #0367fd;
+    border:1px solid #68828C ;
     padding:14px 10px;
     width:220px;
     outline:none;
@@ -51,23 +34,24 @@ body{
     .box input[type="email"]:focus,.box input[type="password"]:focus
     {
     width:270px;
-    border-color:#ffc400ec;
+    border-color:#68828C2B;
     }
     .box input[type:"submit"]
     {
     border:0;
     background:none;
     display:block;
+    margin:20px auto;
     text-align:center;
-    border:1px solid #ffc400ec;
+    border:3px solid #68828C;
     padding:14px 10px;
     outline:none;
-    color:white;
+    color:#68828C;
     border-radius:24px;
     transition:0.25px;
     cursor:pointer;
     }
     .box input[type:"submit"]:hover
     {
-    background:#ffc400ec;
+    background:#68828C;
     }
